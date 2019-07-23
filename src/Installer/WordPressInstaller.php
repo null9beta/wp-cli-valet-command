@@ -66,6 +66,7 @@ class WordPressInstaller implements InstallerInterface
             'dbuser'   => $this->props->option('dbuser'),
             'dbpass'   => $this->props->databasePassword(),
             'dbprefix' => $this->props->option('dbprefix'),
+            'dbhost' => $this->props->option('dbhost'),
         ]);
     }
 
